@@ -1,5 +1,7 @@
 on:
   workflow_dispatch:
+  schedule:
+     - cron: "0 1 * * *"
   push:
     branches: main
 
@@ -21,7 +23,7 @@ jobs:
           
       - name: Install R dependencies
         run: |
-          install.packages(c("rmarkdown","juicyjuice","knitr","rio","dplyr","gt","gtsummary","performance","report","car","MASS","english","ggplot2"))
+          install.packages(c("rmarkdown","V8","juicyjuice","knitr","rio","dplyr","gt","gtsummary","performance","report","car","MASS","english","ggplot2"))
           # Add any other R packages your project needs
         shell: Rscript {0}
 

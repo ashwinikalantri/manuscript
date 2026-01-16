@@ -1,41 +1,11 @@
 ---
-title: Prevalence and predictors of risk factors for non-communicable diseases in individuals aged 10-30 years - Findings from baseline assessment of V-CaN – A hybrid type 2 implementation effectiveness trial
+title: Predictors of risk factors for Hypertension
 author:
   - name: Ashwini Kalantri
     orcid: 0000-0001-5013-4371
     email: ashwini@mgims.ac.in
-    affiliations: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Mudita Joshi
-    orcid: 0000-0002-8757-2874
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Devyani Wanjari
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Radhika Sharma
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Anuj Mundra
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Arjun Jakasania
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Harshal Sathe
-    affiliation: Department of Psychiatry, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Sakshi Siriah
-    affiliation: Department of Biochemistry, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Pramod Bahulekar
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Abhishek Raut
-    email: abhishekraut@mgims.ac.in
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
     corresponding: true
-  - name: Chetna Maliye
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Rameshwar J Paradkar
-    affiliation: National Health Mission, Wardha, MS, India
-  - name: Satish Kumar
-    affiliation: Department of Biochemistry, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Subodh S Gupta
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
-  - name: Bishan S Garg
-    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+    affiliations: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
 abstract: |
   Adolescence and early adulthood are pivotal periods for the establishment of long-term health behaviors affecting the long-term prevalence of NCDs. We aimed to estimate prevalence of behavioral and biochemical modifiable risk factors for NCDs and predictors of common risk factors for non-communicable diseases in individuals aged 10-30 years. This trial was registered under the Clinical Trials Registration India number [CTRI/2020/10/028700](https://ctri.nic.in/Clinicaltrials/showallp.php?mid1=47597&EncHid=&userName=V-CaN) (International Registered Report Identifier (IRRID): DERR1-10.2196/42450). In this cross-sectional survey done on 12,000 respondents, they were selected by simple random sampling using Health and demographic surveillance system as a sampling frame, we are presenting the results of behavioral, anthropometric risk factors and biochemical risk factors for a subsample of 1600. We have also created a best-fit regression model for risk factors as outcome variables. The average consumption of salt and sugar per person per day was 8.7 (± 3.1) and 44.7 (± 18.2) grams. Prevalence of smoking, smokeless tobacco, alcohol consumption, adequate physical activity, obesity, moderate stress, high stress, anxiety and depression was 0.3%, 15.3%, 1.8%, 32.4%, 7.6%, 76.3%, 4.7%, 16% and 27.5% respectively. The mean (SD) levels of lipid panel components were higher in 20-30 years. Age group, education level, occupation, marital status, alcohol consumers, smokeless tobacco consumers, stress, anxiety, depression and elevated BP significantly affected the modifiable risk factors for NCDs. The risk factor for NCDs’ prevalence is high among adolescents and frequent screening through such surveys may be considered so that timely intervention can be done to reduce the prevalence of NCDs. The current policies around tobacco consumption focuses on smoking, more stringent laws should be made about the use of chewable tobacco as well. Screening of the younger generation for various NCDs as well as their risk factors can be considered under various programs like RKSK, RBSK, NP-NCD, NFHS etc. to ensure that we recognize this as a public health concern and take timely policy-based actions.
 keywords: 
