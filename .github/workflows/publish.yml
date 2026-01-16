@@ -21,7 +21,7 @@ jobs:
           
       - name: Install R dependencies
         run: |
-          install.packages(c("rmarkdown", "knitr"))
+          install.packages(c("rmarkdown", "knitr","rio","dplyr","gt","gtsummary","performance","report","car","MASS","english","ggplot2")
           # Add any other R packages your project needs
         shell: Rscript {0}
 
