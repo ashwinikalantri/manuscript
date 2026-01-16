@@ -1,111 +1,341 @@
 ---
-title: La Palma Earthquakes
+title: Prevalence and predictors of risk factors for non-communicable diseases in individuals aged 10-30 years - Findings from baseline assessment of V-CaN – A hybrid type 2 implementation effectiveness trial
 author:
-  - name: Steve Purves
-    orcid: 0000-0002-0760-5497
+  - name: Ashwini Kalantri
+    orcid: 0000-0001-5013-4371
+    email: ashwini@mgims.ac.in
+    affiliations: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Mudita Joshi
+    orcid: 0000-0002-8757-2874
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Devyani Wanjari
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Radhika Sharma
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Anuj Mundra
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Arjun Jakasania
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Harshal Sathe
+    affiliation: Department of Psychiatry, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Sakshi Siriah
+    affiliation: Department of Biochemistry, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Pramod Bahulekar
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Abhishek Raut
+    email: abhishekraut@mgims.ac.in
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
     corresponding: true
-    email: steve@curvenote.com
-    roles:
-      - Investigation
-      - Project administration
-      - Software
-      - Visualization
-    affiliations:
-      - Curvenote
-  - name: Rowan Cockett
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations:
-      - Curvenote
-keywords:
-  - La Palma
-  - Earthquakes
+  - name: Chetna Maliye
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Rameshwar J Paradkar
+    affiliation: National Health Mission, Wardha, MS, India
+  - name: Satish Kumar
+    affiliation: Department of Biochemistry, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Subodh S Gupta
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
+  - name: Bishan S Garg
+    affiliation: Department of Community Medicine, Mahatma Gandhi Institute of Medical Sciences, Sevagram, MS, India
 abstract: |
-  In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). ...
-plain-language-summary: |
-  Earthquake data for the island of La Palma from the September 2021 eruption is found ...
-key-points:
-  - A web scraping script was developed to pull data from the Instituto Geogràphico Nacional into a machine-readable form for analysis
-  - Earthquake events on La Palma are consistent with the presence of both mantle and crustal reservoirs.
+  Adolescence and early adulthood are pivotal periods for the establishment of long-term health behaviors affecting the long-term prevalence of NCDs. We aimed to estimate prevalence of behavioral and biochemical modifiable risk factors for NCDs and predictors of common risk factors for non-communicable diseases in individuals aged 10-30 years. This trial was registered under the Clinical Trials Registration India number [CTRI/2020/10/028700](https://ctri.nic.in/Clinicaltrials/showallp.php?mid1=47597&EncHid=&userName=V-CaN) (International Registered Report Identifier (IRRID): DERR1-10.2196/42450). In this cross-sectional survey done on 12,000 respondents, they were selected by simple random sampling using Health and demographic surveillance system as a sampling frame, we are presenting the results of behavioral, anthropometric risk factors and biochemical risk factors for a subsample of 1600. We have also created a best-fit regression model for risk factors as outcome variables. The average consumption of salt and sugar per person per day was 8.7 (± 3.1) and 44.7 (± 18.2) grams. Prevalence of smoking, smokeless tobacco, alcohol consumption, adequate physical activity, obesity, moderate stress, high stress, anxiety and depression was 0.3%, 15.3%, 1.8%, 32.4%, 7.6%, 76.3%, 4.7%, 16% and 27.5% respectively. The mean (SD) levels of lipid panel components were higher in 20-30 years. Age group, education level, occupation, marital status, alcohol consumers, smokeless tobacco consumers, stress, anxiety, depression and elevated BP significantly affected the modifiable risk factors for NCDs. The risk factor for NCDs’ prevalence is high among adolescents and frequent screening through such surveys may be considered so that timely intervention can be done to reduce the prevalence of NCDs. The current policies around tobacco consumption focuses on smoking, more stringent laws should be made about the use of chewable tobacco as well. Screening of the younger generation for various NCDs as well as their risk factors can be considered under various programs like RKSK, RBSK, NP-NCD, NFHS etc. to ensure that we recognize this as a public health concern and take timely policy-based actions.
+keywords: 
+  - addiction
+  - adolescent
+  - youth
+  - diabetes mellitus
+  - hypertension
+  - obesity
+  - STEPS
 date: last-modified
+linenumbers: false
 bibliography: references.bib
 citation:
-  container-title: Earth and Space Science
+  container-title: PLoS Global Health
 number-sections: true
 ---
 
-## Introduction
+# Introduction:
+The burden of noncommunicable diseases (NCDs) is escalating in low- and middle-income nations like India, which are concurrently facing the challenges of improving nutrition, controlling infectious disease, and improving maternal and child health services. Over the next 25 years, there will likely be a large increase in the burden of cancer, diabetes, chronic respiratory diseases, cardiovascular diseases, and mental disorders. By 2030, NCDs are predicted to be responsible for around 75% deaths in India [@Patel2011Lancet]. According to the National Family Health Survey-5 (NFHS-5), the overall prevalence of DM in females and men is 2.9% and 4.2%, respectively, whereas the prevalence of HTN in females and males is 13.5% and 21.6%, respectively [@Rana2024PLOS]. Several studies have shown that early interventions targeting modifiable risk factors for NCDs are necessary for both primary and secondary prevention of NCD [@Darukaradhya2025PMRR, @VandeVijver2012EthnHealth]. The Comprehensive National Nutrition Survey (CNNS) data from 2016–2018 for all 29 Indian states reveals a startlingly high prevalence of high blood pressure in Indian youth: 35% of children aged 10–12 and 25% of those aged 13–19 had blood pressure in the stage 1 or 2 hypertension range, as defined by the American Academy of Paediatrics cut points from 2017. In addition, obesity, high blood sugar, and lipid abnormalities were among the major CVD risk factors that were more prevalent in young people with high blood pressure [@Zaidi2022JAMANetw].
 
-```{r}
-eruptions <- c(1492, 1585, 1646, 1677, 1712, 1949, 1971, 2021)
-n_eruptions <- length(eruptions)
+Evidence from low- and middle-income nations suggest that community-based interventions through health promotion programs can reduce the prevalence of risk factors for NCDs. Such interventions greatly lower the hazards associated with changing one's diet and lifestyle, drinking alcohol, smoking, and other habits [@VandeVijver2012EthnHealth]. 9.3% of Indian adults living in rural areas have been observed to have metabolic syndrome, which is characterized by a clustering of abdominal obesity, hypertension, impaired glucose metabolism, and dyslipidemia [@Kamble2010IJMR]. According to a meta-analysis, the prevalence of childhood obesity in India is 8.4% and that of childhood overweight is 12.4% [@Singh2023CEGH]. According to the National non-communicable disease monitoring survey the prevalence of adolescent overweight and obesity is 6.2% and 1.8% respectively. Around 25% adolescents have inadequate physical activity and approximately 3% consume tobacco daily [@Mathur2021BMJOpen]. In Wardha, 4.3% of kids are either overweight or obese, while 57% of teenage girls have dietary deficiencies [@Gaidhane2017JFMPC]. 
+
+Adolescence and early adulthood are pivotal periods for the establishment of long-term health behaviors like the mean age for initiation of consuming smokeless tobacco in India is 9.9 years as per Global Youth Tobacco Survey-4 [@GYTS2019India]. Understanding and addressing these risk factors during these formative years can significantly reduce the future burden of NCDs. Therefore, comprehensive risk factor profiling in this age group of 10-30 years is not only vital for immediate health benefits but also for curbing the long-term prevalence of NCDs.
+
+Thus, we aim to estimate the behavioral (dietary habits, obesity, tobacco use, stress, alcohol consumption, physical inactivity) and biochemical (high blood pressure, deranged lipid panel and high blood sugar) modifiable risk factors for NCDs, and predictors of common risk factors in individuals aged 10-30 years.
+
+# Methodology
+
+This study was conducted as a part of Vitalizing Community for Health Promotion Against Modifiable Risk Factors of Noncommunicable Diseases (V-CaN) project which is a hybrid type 2 implementation effectiveness trial. This trial was registered under the Clinical Trials Registration India [CTRI/2020/10/028700](https://ctri.nic.in/Clinicaltrials/showallp.php?mid1=47597&EncHid=&userName=V-CaN) (International Registered Report Identifier (IRRID): DERR1-10.2196/42450) on October 28, 2020. Ethics approval was obtained from the institutional ethics committee, before the start of the trial vide letter MGIMS/IEC/COMMED/79/2020. During the study, verbal consent was taken from all individuals for the survey. Additionally, consent was also taken if the participants were willing for blood investigation. Only, those who consented for blood investigation were considered in the sampling frame for further sampling of biochemical risk factors. In the present article, we present the results of behavioral, anthropometric and biochemical risk factors assessed at the baseline. We assessed a total of 12000 individuals (aged 10-30 years) selected using stratified random sampling (stratified for gender) for the behavioral risk factors. A sampling frame was drawn from the already existing database under the Human Demographic Surveillance System (HDSS) for the study area. From these 12000 respondents, those who consented for giving blood samples, a simple random sample was drawn for assessing the biochemical risk factors. The flowchart in figure 1 provides details on the sample collection whereas the details of the methodology used for the study have been published elsewhere [@Mundra2023JMIR]. 
+
+The baseline data was collected using the Survey Solutions software [@SurveySolutions] by trained data enumerators. The data was cleaned and analyzed using R studio version 4.4.0 [@PositR]. All of the data being reported here was collected as a part of the survey except their economic status. The information on their economic status was extracted from the database of the most recent round of the HDSS conducted in January 2023. The Wealth index was constructed using part component analysis (PCA). Categorical variables have been summarized using frequency and percentage. Continuous variables have been summarized using mean (SD) or median (IQR). Multivariate ordinal regression was performed to depict the predictors of stress. For studying the predictors of other common modifiable risk factors (smokeless tobacco consumption, physical activity, daily salt and sugar consumption) logistic regression was performed.
+
+While analyzing and categorizing the variables under study, WHO STEPS guide was adapted to interview the respondents and used World Health Organization (WHO) standards of recommended dietary consumption of 5 servings of fruits and vegetables per person per day [@WHOIndicator3417], $\le 5$ grams of salt per person per day [@WHOSodiumReduction] and $\le 50$ grams of sugar per person per day [@WHOSugar2015]. For calculating the sugar and salt consumption per person per day, we divided the total salt intake with the number of family members as well as the days required to consume the packet completely. For categorizing physical activity, we have resorted to WHO reference standards suggesting a minimum of 600 met-minutes per person per day for a person to be considered as physically active as per the Global physical activity questionnaire [@Lancet2004BMIAsia]. Obesity was measured using Body mass index. Further categorization of BMI was done based on reference tables provided by WHO till 18 years of age and beyond that the Southeast Asian cut-offs were used to categorize participants based on their BMI [@Kroenke2009PHQ4]. Those respondents who were consuming any form of smokeless tobacco like kharra, betel quid, chewing tobacco, etc were reported as consumers of smokeless tobacco and those consuming alcohol in 30 days have been considered as alcohol consumers.
+
+For assessing status of hypertension, an average of three blood pressure readings were considered to draw interpretation and categorize the adolescent as normotensive, pre-hypertensive and hypertensive. This categorization was done using reference tables and cut-offs as suggested by the American academy of pediatrics [@Johnson2017JAH]. To check for diabetes status, values of fasting blood sugar were assessed considering Normal level $\le 110$ mg/dl, 110 < Pre-diabetes $\ge 126$, Diabetic > 126 mg/dl. Stress was assessed using the perceived stress scale and was categorized based on the score as low (0-13), moderate (14-26) or high (27-40). Anxiety and depression were assessed using the patient health questionnaire- 4 (PHQ-4). Those with a score of 3 or more in the first two questions were reported to have anxiety whereas those who scored 3 or more in the last two questions were reported as depressed [@Grover2020TUI]. For missing data, observations were removed from the analysis and for extreme outliers, data was imputed using the median of the variable. 
+
+We employed a forward stepwise method to sequentially add variables to the model, carefully assessing collinearity based on the Variance Inflation factor (VIF) and tolerance values at each step. For each model, bivariate analysis was done between independent variables and the outcome variables. Based on the statistical significance, we considered the variables to be added for our model. After assessing for collinearity and other model parameters, we have reported the best fitting model for the risk factors of NCDs as outcome variables- stress, smokeless tobacco consumption, physical inactivity, excess salt and sugar consumption.
+
+# Results
+
+```{r setup, include=FALSE}
+
+library(dplyr)
+library(gt)
+library(gtsummary)
+library(performance)
+library(report)
+library(car)
+library(MASS)
+library(english)
+library(ggplot2)
+
+decimal_to_text <- function(x) {
+  # Convert decimal to fraction
+  frac <- fractions(x)
+  
+  # Extract numerator and denominator
+  frac_char <- as.character(frac)
+  parts <- strsplit(frac_char, "/")[[1]]
+  
+  if (length(parts) == 1) {
+    # It's a whole number
+    return(as.character(as.english(as.numeric(parts[1]))))
+  }
+  
+  numerator <- as.numeric(parts[1])
+  denominator <- as.numeric(parts[2])
+  
+  # Convert to text
+  num_text <- as.character(as.english(numerator))
+  
+  # Use ordinal for denominator
+  denom_text <- as.character(as.english(denominator))
+  
+  # Handle special cases and add 'th'/'s' appropriately
+  if (numerator > 1) {
+    if (denominator == 2) {
+      denom_text <- "halves"
+    } else if (denominator == 4) {
+      denom_text <- "quarters"
+    } else {
+      # Convert to ordinal and add 's' for plural
+      denom_text <- paste0(as.character(ordinal(denominator)), "s")
+    }
+  } else {
+    if (denominator == 2) {
+      denom_text <- "half"
+    } else if (denominator == 4) {
+      denom_text <- "quarter"
+    } else {
+      # Convert to ordinal (singular)
+      denom_text <- as.character(ordinal(denominator))
+    }
+  }
+  
+  paste(num_text, denom_text)
+}
+
+library(rio)
+vcan <- import("vcan.csv")
+vcan <- vcan %>%
+  mutate(across(
+    c(
+      agecat,
+      sex,
+      phc,
+      village,
+      edu,
+      marSta,
+      caste,
+      occu,
+      curSmoke,
+      curSmokeless,
+      pastSmoke,
+      pastSmokeless,
+      pastSmokelessDaily,
+      smokeHome,
+      smokeWork,
+      alcEver,
+      alc12m,
+      alcStReason,
+      alc30d,
+      alcFreq,
+      stress,
+      anxiety,
+      depression,
+      met_cat,
+      dm,
+      salt,
+      sugar,
+      fruitveg
+    ),
+    factor
+  )) |>
+  mutate(caste = factor (caste, levels = c("Open",
+                                           "OBC",
+                                           "SC",
+                                           "ST",
+                                           "VJ/NT/Others")),
+         edu = factor(edu, levels = c("No or primary schooling",
+                                      "Secondary",
+                                      "Higher Secondary",
+                                      "Graduate and above")),
+         wealth_index = factor(wealth_index, 
+                               levels = 1:5,
+                               labels = c("Lowest",
+                                          "Second",
+                                          "Middle",
+                                          "Fourth",
+                                          "Highest")),
+         stress = factor(stress, levels= c("Low stress",
+                                           "Moderate stress",
+                                           "High perceived stress")),
+         met_cat = factor(met_cat,
+                          levels = 0:1,
+                          labels = c("No", "Yes")),
+         bmicat = factor(bmicat,
+                         levels = c("Normal",
+                                    "Sev Underweight",
+                                    "Underweight",
+                                    "Overweight",
+                                    "Obesity")),
+         htn = factor(htn, levels= c("Normal", 
+                                     "Elevated", 
+                                     "HTN1", 
+                                     "HTN2")),
+         dm = factor(dm, levels= c("Normal", 
+                                   "Pre-diabetic", 
+                                   "Diabetic")),
+         fruitveg = factor(fruitveg, 
+                           levels = 0:1,
+                           labels = c("Adequate",
+                                      "Inadequate")),
+         salt = factor(salt, 
+                       levels = 0:1,
+                       labels = c("Adequate",
+                                  "Excess")),
+         sugar = factor(sugar, 
+                        levels = 0:1,
+                        labels = c("Adequate",
+                                   "Excess"))
+  )
+
+vcan$met_cat <- relevel(vcan$met_cat, 
+                        ref = "Yes")
+
+vcan$salt <- relevel(vcan$salt,
+                     ref = "Adequate")
+
+vcan$sugar <- relevel(vcan$sugar,
+                      ref = "Adequate")
+
+
+
+
+edu <- vcan %>% filter(!is.na(edu)) %>% group_by(edu) %>% count() %>% ungroup() %>% mutate(per = n/sum(n))
+wi = vcan %>% filter(!is.na(wealth_index)) %>%
+  group_by(wealth_index) %>% count() %>% ungroup() %>%
+  mutate(per = n/sum(n)) %>% mutate(rank = 1:n())
+
+mar <- vcan %>%
+  filter(!is.na(marSta)) %>% 
+  mutate(marSta = as.character(marSta)) %>% 
+  group_by(marSta) %>%
+  count() %>%
+  ungroup() %>%
+  mutate(per = n/sum(n))
+
+caste <- vcan %>%
+  group_by(caste) %>% 
+  count() %>% 
+  ungroup() %>% 
+  mutate(per = round(n/sum(n),3)) %>%
+  arrange(desc(n))
+
+
+mod <- glm(
+  data = vcan,
+  met_cat ~ agecat + sex + caste + marSta + occu + edu,
+  family = binomial(link = "logit")
+)
+
+rep <- summary(report(mod, include_effectsize = F))
+
+rep <- as.character(rep)
+a <- strsplit(rep,"\n")[[1]]
+
+rep <- paste(a[grep("non-significant", a, invert = TRUE)], collapse = "\n")
+
 ```
 
-```{r}
-#| label: fig-timeline
-#| fig-cap: Timeline of recent earthquakes on La Palma
-#| fig-alt: An event plot of the years of the last 8 eruptions on La Palma.
-#| fig-height: 1.5
-#| fig-width: 6
-par(mar = c(3, 1, 1, 1) + 0.1)
-plot(eruptions, rep(0, n_eruptions), 
-  pch = "|", axes = FALSE)
-axis(1)
-box()
+```{r table1, echo=FALSE, message=FALSE, warning=FALSE, tab.cap="Description of socio-demographic characteristics of the respondents"}
+vcan |>
+  dplyr::select(agecat, sex, edu, occu, 
+                wealth_index, marSta, caste, schoolYrs)|>
+  tbl_summary(label = list(
+    sex ~ "Sex",
+    edu ~ "Education",
+    occu ~ "Occupation",
+    wealth_index ~ "Wealth index",
+    marSta ~ "Marital status",
+    caste ~ "Caste",
+    schoolYrs ~ "Years of schooling"
+  ),
+  by = agecat,
+  digits = list(c(sex, edu, occu, 
+                  wealth_index, marSta, 
+                  caste, schoolYrs) ~ c(0, 1)),
+  missing = "no") %>% 
+  add_overall(last = TRUE)|>
+  modify_spanning_header(
+    all_stat_cols() ~ "**Age category-wise distribution of demographic variables**")|>
+  modify_footnote(
+    all_stat_cols() ~ paste("n (%) for categorical, median (IQR) for years of schooling"))|>
+  bold_labels()|>
+  italicize_labels() %>% 
+  as_kable_extra()
 ```
 
-```{r}
-#| output: false
-avg_years_between_eruptions <- mean(diff(eruptions[-n_eruptions]))
-avg_years_between_eruptions
+The socio-demographic characteristics and risk factors have been summarized separately for the two age groups as specified earlier. Regarding the education status of the participants, `r round(edu$per[edu == "No or primary schooling"]*100,0)`% of the respondents had no or primary education whereas `r round(edu$per[edu == "Graduate and above"]*100,0)`% had completed graduation and above. `r round((edu$per[edu == "Higher Secondary"]+edu$per[edu == "Secondary"])*100,0)`% of the respondents were students. The data on economic characteristics was available for only `r sum(wi$n)` participants through our Health and Demographic Surveillance System (HDSS) which has been summarized as wealth quintiles. Majority of the respondents belonged to the `r wi$wealth_index[rank = 5]` (`r round(wi$per[rank = 5]*100,1)`%) and `r wi$wealth_index[rank = 4]` (`r round(wi$per[rank = 4]*100,1)`%) quintile of wealth index. Nearly `r decimal_to_text(round(mar$per[mar$marSta == "Currently married"],1))` (`r round(mar$per[mar$marSta == "Currently married"],2)`%) of the respondents were married at the time of data collection. Most of the respondents belonged to the `r caste$caste[1]` category (`r round(caste$per[1]*100,1)`%) followed by `r caste$caste[2]` (`r round(caste$per[2]*100,1)`%), `r caste$caste[3]` (`r round(caste$per[3]*100,1)`%), `r caste$caste[4]` (`r round(caste$per[4]*100,1)`%) and `r caste$caste[5]` (`r round(caste$per[5]*100,1)`%). The median (Inter quartile range) years of schooling was `r median(vcan$schoolYrs)` (`r quantile(vcan$schoolYrs,1/4)`, `r quantile(vcan$schoolYrs,3/4)`) years. (Table \@ref(tab:table1))
+
+
+```{r fig1, echo=FALSE, fig.cap="Relationship between weight and height", fig.height=3, fig.width=4, message=FALSE, warning=FALSE}
+
+vcan %>% 
+  ggplot(aes(x = ht, y = wt)) +
+  geom_point(size = .5,  alpha = .4, colour = "black", fill = "black") +
+  geom_smooth(method = "loess") +
+  labs(x = "Height", y = "Weight") +
+  theme_minimal()
+
 ```
 
-Based on data up to and including 1971, eruptions on La Palma happen every `{r} round(avg_years_between_eruptions, 1)` years on average.
+Figure \@ref(fig:fig1) illustrates the relationship between height and weight using a scatter plot with a locally smoothed regression curve. A clear positive association is observed, with weight increasing progressively with greater height. The smoothed trend indicates a non-linear pattern, characterised by a relatively shallow slope at shorter heights, a steeper increase across the mid-height range, and a continued rise at taller heights. The dispersion of weight values widens with increasing height, suggesting greater inter-individual variability among taller participants. The shaded confidence band around the smooth curve widens at the extremes of height, reflecting increased uncertainty due to fewer observations in these ranges. Overall, the plot demonstrates a strong height–weight relationship with evidence of non-linearity and heteroscedasticity across the height spectrum.
 
-Studies of the magma systems feeding the volcano, such as @marrero2019, have proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges and in turn feeds a shallower crustal reservoir (10-20km depth).
+```{r table2, echo=FALSE, tab.cap="Predictors for inadequate Physical Activity (logistic regression model)", message=FALSE, warning=FALSE}
+vcan %>% 
+  dplyr::select(agecat, sex, caste, marSta, occu, edu, wealth_index,
+         curSmokeless, alc30d, 
+         salt_personday, sugar_personday,
+         fru_veg,
+         met_cat,
+         stress,
+         bmi, htn,
+         depression, anxiety,
+         Glucose:HDL) %>% 
+  tbl_uvregression(
+    method = glm,
+    y = met_cat,
+    method.args = list(family = binomial),
+    exponentiate = T
+  ) %>% 
+  as_kable_extra()
+```
 
-Eight eruptions have been recorded since the late 1400s (@fig-timeline).
+`r rep`
 
-Data and methods are discussed in @sec-data-methods.
+# Conclusion
 
-Let $x$ denote the number of eruptions in a year. Then, $x$ can be modeled by a Poisson distribution
+The prevalence of risk factors for non-communicable diseases (NCDs) is notably high among adolescents, underscoring the importance of frequent screening through comprehensive surveys. Such proactive measures can enable timely interventions aimed at reducing the incidence of NCDs. While current policies predominantly address tobacco consumption through smoking regulations, there is a pressing need for more stringent laws concerning the use of chewable tobacco. Strengthening the screening of adolescents for various NCDs and their associated risk factors into existing programs, such as the Rashtriya Kishor Swasthya Karyakram (RKSK), Rashtriya Bal Swasthya Karyakram (RBSK), National Programme for Non-communicable diseases (NP-NCD), the National Family Health Survey (NFHS) and Global Youth Tobacco Survey (GYTS) can ensure that this issue is recognized as a significant public health concern. By doing so, we can take timely, policy-based actions to address and mitigate the impact of NCDs among the youth.
 
-$$
-p(x) = \frac{e^{-\lambda} \lambda^{x}}{x !}
-$$ {#eq-poisson}
-
-where $\lambda$ is the rate of eruptions per year. Using @eq-poisson, the probability of an eruption in the next $t$ years can be calculated.
-
-| Name                 | Year   |
-| -------------------- | ------ |
-| Current              | 2021   |
-| Teneguía             | 1971   |
-| Nambroque            | 1949   |
-| El Charco            | 1712   |
-| Volcán San Antonio   | 1677   |
-| Volcán San Martin    | 1646   |
-| Tajuya near El Paso  | 1585   |
-| Montaña Quemada      | 1492   |
-
-: Recent historic eruptions on La Palma {#tbl-history}
-
-@tbl-history summarises the eruptions recorded since the colonization of the islands by Europeans in the late 1400s.
-
-![Map of La Palma](images/la-palma-map.png){#fig-map}
-
-La Palma is one of the west most islands in the Volcanic Archipelago of the Canary Islands (@fig-map). 
-
-{{< embed notebooks/explore-earthquakes.qmd#fig-spatial-plot >}}
-
-@fig-spatial-plot shows the location of recent Earthquakes on La Palma.
-
-## Data & Methods {#sec-data-methods}
-
-## Conclusion
-
-## References {.unnumbered}
-
-:::{#refs}
-
-:::
+# References {-}
